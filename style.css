@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-padding-inline: 65px;
+}
+
+.body {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    padding-inline: var(--primary-padding-inline);
+}
+
+
+
+/* top-section */
+.nav-link-icon {
+    text-align: center;
+}
+
+.top-bar {
+    justify-content: space-between;
+}
+
+.nav-links {
+    margin-inline: 15px;
+    cursor: pointer;
+}
+
+.nav-bar {
+    margin-block: 20px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #999;
+    transition: 0.2s;
+}
+
+.nav-link a:hover {
+    color: #000;
+}
+
+.primary-button input {
+    padding: 15px 25px;
+    text-transform: capitalize;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.signin-button input {
+    border-radius: 35px;
+    color: #1376e8;
+    border: 1px solid#1376e8;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+.joinnow-button input {
+    border: none;
+
+}
+
+.joinnow-button input {
+    border-left: 2px solid #999;
+    background-color: white;
+    font-weight: bold;
+}
+
+/* top-section-end */
+
+
+
+/* welcome-section */
+.welcome-section {
+    margin-block: 50px;
+}
+
+form {
+    width: 75%;
+}
+
+.form-heading {
+    font-size: 3rem;
+    line-height: 60px;
+    color: rgb(170, 76, 76);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+form div label {
+    display: block;
+    color: #4d4b4b;
+    text-transform: capitalize;
+    margin-block: 15px;
+}
+
+form div input {
+    width: 100%;
+    outline: none;
+    padding-block: 20px;
+    padding-inline: 20px;
+}
+
+form div input:hover {
+    outline: auto;
+}
+
+form input[type="submit"] {
+    margin-block: 10px;
+    padding-block: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    background-color: #1376e8;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0f51ae;
+}
+
+.forget-link a {
+    text-transform: capitalize;
+    color: #1376e8;
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-block: 25px;
+}
+
+.forget-link a :hover {
+    text-decoration: underline;
+    color: #0f51ae;
+}
+
+form p {
+    margin-block: 25px;
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+}
+
+form #button {
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid black;
+}
+
+.photo-section {
+    padding-block: 10px;
+    width: 80%;
+}
+
+.photo-section img {
+    height: 100%;
+    width: 100%
+}
+
+/* welcome-section-end */
+
+
+
+/* contect-section */
+.contect-section {
+    padding-block: 50px;
+
+}
+
+.contect-heading {
+    text-transform: capitalize;
+    font-size: 2.8rem;
+    width: 80vw;
+    line-height: 50px;
+}
+
+.contect-heading-section div {
+    padding: 15px 20px;
+    text-transform: capitalize;
+}
+
+.contect-heading-section div p {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #6a6666;
+}
+
+.link-button a {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 15px 30px;
+    margin: 10px 5px 10px 0px;
+    color: #484444;
+    border-radius: 30px;
+}
+
+.link-button .first-link {
+    border: 1.7px solid #0752a9;
+    color: #0a4e9c;
+}
+
+.link-button .first-link:hover {
+    color: #073a74;
+    border: 1.7px solid #073a74;
+
+}
+
+/* contect-section-end */
+
+
+/* job-section */
+.job-section {
+    display: flex;
+    margin-block: 70px;
+    padding-block: 60px;
+    gap: 89px;
+    align-items: center;
+    background-color: #e8dddd;
+
+}
+
+.job-heading {
+    font-size: 2.6rem;
+    color: brown;
+    width: 30vw;
+}
+
+.job-hover-link {
+    border: 1px solid #0752a9;
+    padding: 15px 27px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.job-hover-link a {
+    text-decoration: none;
+    color: #0752a9;
+}
+
+/* job-section-end */
+
+
+/* feature-section */
+.feature-section {
+    margin-block: 150px;
+}
+
+.feature-heading {
+    width: 50%;
+}
+
+#feature-section {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heading {
+    color: brown;
+    font-size: 2.5rem;
+    margin-block: 20px;
+    font-weight: 500;
+}
+
+#paragraph {
+    font-size: 1.8rem;
+    margin-block: 20px;
+    line-height: 40px;
+}
+
+.feature-image {
+    width: 40%;
+}
+
+/* feature-section-end */
+
+
+/* sub-feature-section */
+.sub-feature-section {
+    justify-content: space-between;
+}
+
+.sub-feature-heading {
+    font-size: 2.2rem;
+    width: 60%;
+}
+
+#box {
+    align-self: center;
+}
+
+.sub-feature-photo {
+    margin-block: 50px;
+}
+
+.btn {
+    margin-block: 30px;
+}
+
+.btn a {
+    border: 1px solid #4d4b4b;
+    color: #4d4b4b;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.btn2 {
+    margin-block: 50px;
+}
+
+.btn2 a {
+    border: 1px solid #484444;
+    color: #484444;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 34px 25px 23px;
+}
+
+.btn2 a img {
+    padding-inline: 20px;
+
+}
+
+/* sub-feature-section-end */
+
+
+/* question-section */
+.question-section {
+    margin-block: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question-h-p {
+    width: 55%;
+}
+
+.question-heading {
+    color: brown;
+    font-size: 2.7rem;
+    margin-block: 10px;
+
+}
+
+.question-peragraph {
+    font-size: 2.7rem;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    line-height: 60px;
+}
+
+.question-image {
+    width: 40%;
+    height: 100vh;
+    background-image: url('assets/asset 5.jpeg');
+    background-repeat: no-repeat;
+}
+
+.question {
+    width: 80%;
+    margin-top: 15px;
+    padding: 15px 15px;
+    justify-content: space-between;
+    text-transform: capitalize;
+    background-color: #e8dddd;
+    transition: 0.2s;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.question a {
+    text-decoration: none;
+    color: #484444;
+}
+
+.question:hover {
+    background-color: #d3caca;
+}
+
+/* question-section-end */
+
+
+
+/* video-section */
+.video-section {
+    margin-block: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-content {
+    padding-left: 40px;
+}
+
+.video-heading {
+    font-size: 2.5rem;
+    color: brown;
+    margin-block: 15px;
+}
+
+.video-paragraph {
+    font-size: 2rem;
+    color: black;
+}
+
+/* video-section-end */
+
+
+
+/* connection-section */
+.connection-section {
+    background-image: url('assets/asset 6.png');
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.connection-heading p {
+    font-size: 2.5rem;
+    color: black;
+    margin-block: 15px;
+}
+
+.connection-button a {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 15px 35px;
+    border-radius: 25px;
+    background-color: #1376e8;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.connection-button a:hover {
+    background-color: #0f51ae;
+}
+
+/* connection-section-end */
+
+
+/* footer-section */
+.footer-section {
+    justify-content: space-between;
+}
+
+.footer-links {
+    width: 85%;
+    justify-content: space-evenly;
+}
+
+.footer-links div p {
+    font-size: 1.2rem;
+    color: #000;
+    padding-block: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #6a6666;
+    text-transform: capitalize;
+    display: inline-block;
+    padding-block: 5px;
+}
+
+.footer-links ul li a:hover {
+    color: #0752a9;
+    text-decoration: underline;
+
+}
+
+/* footer-section-end */
+
+
+/* sub-footer-section */
+.sub-footer-section {
+    margin-top: 30px;
+}
+
+.company-icon {
+    width: 10%;
+}
+
+.sub-footer-section ul {
+    list-style: none;
+
+}
+
+.sub-footer-section ul li a {
+    text-decoration: none;
+    color: #6a6666;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 10px;
+    font-size: .8rem;
+
+}
+
+.sub-footer-section ul li a:hover {
+    color: #0752a9;
+    text-decoration: underline;
+}
+
+/* sub-footer-end */
