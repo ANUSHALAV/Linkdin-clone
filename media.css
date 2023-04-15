@@ -1,0 +1,100 @@
+
+/* for 1123px width */
+@media screen and (max-width:1123px){
+    .form-heading{
+        font-size:2.5rem;
+    }
+}
+
+
+/* for 991px width */
+@media screen and (max-width:991px){
+    :root{
+        --primary-padding-inline:40px;
+    }
+    body{
+        font-size:.8rem;
+    }
+    .top-bar .nav-bar .nav-links{
+        display:none;
+    }
+    .form-section div input{
+        padding-block: 15px;
+        padding-inline: 15px;
+    }
+}
+
+/* for 850px width */
+@media screen and (max-width:850px){
+    a{
+        font-size:1rem;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .photo-section{
+        padding:20px 0px 20px 30px;
+    } 
+    form{
+        width:100%;
+    }
+    .photo-section{
+        width:100%;
+    }
+    .form-section div input{
+        width:70%;
+    }
+    .question-h-p{
+        width:100%;
+    }
+    .question-image{
+        display:none;
+    }
+    .footer-section,.footer-links{
+        flex-direction: column;
+    }
+    .sub-feature-heading{
+        font-size:1.8rem;
+    }
+    #box{
+        align-self:flex-start;
+    }
+    .video-content {
+        padding-left:0;
+    }
+}
+
+/* for width 400px */
+@media screen and (max-width:400px){
+    .container{
+        padding-inline:30px;
+        flex-direction: column;
+        width:100%;
+    }
+    p{
+        font-size:1rem;
+    }
+    a{
+        font-size:1rem;
+    }
+    .video iframe{
+        width:80%;
+        height:60%;
+    }
+    #heading{
+        font-size:1rem;
+    }
+    #paragraph{
+        font-size:1rem;
+        line-height:25px;
+    }
+    #feature-section{
+        align-items: flex-start;
+    }
+    .job-section{
+        align-items:flex-start;
+    }
+    .joinnow-button input{
+        border:none;
+    }
+}
